@@ -10,7 +10,7 @@ if f(a)*f(b)<0:
     print("bisection method not allowed")
 else:
     n=0
-    while n<0:
+    while n<10:
         c=(a+b)/2
         if f(a)*f(c)<0:
             b=c
